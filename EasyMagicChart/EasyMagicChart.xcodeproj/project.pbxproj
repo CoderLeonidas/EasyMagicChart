@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238BC99922782DF000EB6984 /* EasyMagicChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC99722782DEF00EB6984 /* EasyMagicChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9A122782E2D00EB6984 /* EMCommonlyUsedToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC99F22782E2D00EB6984 /* EMCommonlyUsedToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9A222782E2D00EB6984 /* EMCommonlyUsedToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9A022782E2D00EB6984 /* EMCommonlyUsedToolKit.m */; };
+		238BC9A522782EC800EB6984 /* EMTypicalColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9A322782EC800EB6984 /* EMTypicalColor.m */; };
+		238BC9A622782EC800EB6984 /* EMTypicalColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9A422782EC800EB6984 /* EMTypicalColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9A92278301B00EB6984 /* EMConverterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9A72278301B00EB6984 /* EMConverterTool.m */; };
+		238BC9AA2278301B00EB6984 /* EMConverterTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9A82278301B00EB6984 /* EMConverterTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9AD2278306800EB6984 /* EMControlTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9AB2278306800EB6984 /* EMControlTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9AE2278306800EB6984 /* EMControlTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9AC2278306800EB6984 /* EMControlTool.m */; };
+		238BC9B22278320800EB6984 /* EMDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9B02278320800EB6984 /* EMDataFactory.m */; };
+		238BC9B32278320800EB6984 /* EMDataFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9B12278320800EB6984 /* EMDataFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9B62278324D00EB6984 /* EMGraphicsAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9B42278324D00EB6984 /* EMGraphicsAlgorithm.m */; };
+		238BC9B72278324D00EB6984 /* EMGraphicsAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9B52278324D00EB6984 /* EMGraphicsAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9C22278326800EB6984 /* EMChartBaseLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9B82278326800EB6984 /* EMChartBaseLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9C32278326800EB6984 /* EMChartMouseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9B92278326800EB6984 /* EMChartMouseLayer.m */; };
+		238BC9C42278326800EB6984 /* EMChartBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9BA2278326800EB6984 /* EMChartBaseLayer.m */; };
+		238BC9C52278326800EB6984 /* EMChartGraphLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9BB2278326800EB6984 /* EMChartGraphLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9C62278326800EB6984 /* EMChartXAxisLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9BC2278326800EB6984 /* EMChartXAxisLayer.m */; };
+		238BC9C72278326800EB6984 /* EMChartYAxisLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9BD2278326800EB6984 /* EMChartYAxisLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9C82278326800EB6984 /* EMChartGraphLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9BE2278326800EB6984 /* EMChartGraphLayer.m */; };
+		238BC9C92278326800EB6984 /* EMChartMouseLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9BF2278326800EB6984 /* EMChartMouseLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9CA2278326800EB6984 /* EMChartXAxisLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9C02278326800EB6984 /* EMChartXAxisLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9CB2278326800EB6984 /* EMChartYAxisLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9C12278326800EB6984 /* EMChartYAxisLayer.m */; };
+		238BC9D02278329800EB6984 /* EMTrendChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9CE2278329800EB6984 /* EMTrendChartView.m */; };
+		238BC9D12278329800EB6984 /* EMTrendChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9CF2278329800EB6984 /* EMTrendChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9DB227832CE00EB6984 /* EMGraphDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9D3227832CD00EB6984 /* EMGraphDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9DC227832CE00EB6984 /* EMGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9D4227832CE00EB6984 /* EMGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9DD227832CE00EB6984 /* EMGraphLayerAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9D5227832CE00EB6984 /* EMGraphLayerAccessory.m */; };
+		238BC9DE227832CE00EB6984 /* EMGraphLayerAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9D6227832CE00EB6984 /* EMGraphLayerAccessory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9DF227832CE00EB6984 /* EMExtremum.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9D7227832CE00EB6984 /* EMExtremum.m */; };
+		238BC9E0227832CE00EB6984 /* EMGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9D8227832CE00EB6984 /* EMGraph.m */; };
+		238BC9E1227832CE00EB6984 /* EMExtremum.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9D9227832CE00EB6984 /* EMExtremum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9E2227832CE00EB6984 /* EMGraphDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9DA227832CE00EB6984 /* EMGraphDataItem.m */; };
+		238BC9E62278337F00EB6984 /* EMAxisHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9E42278337F00EB6984 /* EMAxisHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9E72278337F00EB6984 /* EMAxisHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9E52278337F00EB6984 /* EMAxisHelper.m */; };
+		238BC9EA227834A600EB6984 /* NSView+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC9E8227834A600EB6984 /* NSView+Geometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BC9EB227834A600EB6984 /* NSView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9E9227834A600EB6984 /* NSView+Geometry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238BC99422782DEF00EB6984 /* EasyMagicChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMagicChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238BC99722782DEF00EB6984 /* EasyMagicChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyMagicChart.h; sourceTree = "<group>"; };
+		238BC99822782DEF00EB6984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238BC99F22782E2D00EB6984 /* EMCommonlyUsedToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCommonlyUsedToolKit.h; sourceTree = "<group>"; };
+		238BC9A022782E2D00EB6984 /* EMCommonlyUsedToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMCommonlyUsedToolKit.m; sourceTree = "<group>"; };
+		238BC9A322782EC800EB6984 /* EMTypicalColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTypicalColor.m; sourceTree = "<group>"; };
+		238BC9A422782EC800EB6984 /* EMTypicalColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTypicalColor.h; sourceTree = "<group>"; };
+		238BC9A72278301B00EB6984 /* EMConverterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMConverterTool.m; sourceTree = "<group>"; };
+		238BC9A82278301B00EB6984 /* EMConverterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConverterTool.h; sourceTree = "<group>"; };
+		238BC9AB2278306800EB6984 /* EMControlTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMControlTool.h; sourceTree = "<group>"; };
+		238BC9AC2278306800EB6984 /* EMControlTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMControlTool.m; sourceTree = "<group>"; };
+		238BC9B02278320800EB6984 /* EMDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDataFactory.m; sourceTree = "<group>"; };
+		238BC9B12278320800EB6984 /* EMDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDataFactory.h; sourceTree = "<group>"; };
+		238BC9B42278324D00EB6984 /* EMGraphicsAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGraphicsAlgorithm.m; sourceTree = "<group>"; };
+		238BC9B52278324D00EB6984 /* EMGraphicsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGraphicsAlgorithm.h; sourceTree = "<group>"; };
+		238BC9B82278326800EB6984 /* EMChartBaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChartBaseLayer.h; sourceTree = "<group>"; };
+		238BC9B92278326800EB6984 /* EMChartMouseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChartMouseLayer.m; sourceTree = "<group>"; };
+		238BC9BA2278326800EB6984 /* EMChartBaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChartBaseLayer.m; sourceTree = "<group>"; };
+		238BC9BB2278326800EB6984 /* EMChartGraphLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChartGraphLayer.h; sourceTree = "<group>"; };
+		238BC9BC2278326800EB6984 /* EMChartXAxisLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChartXAxisLayer.m; sourceTree = "<group>"; };
+		238BC9BD2278326800EB6984 /* EMChartYAxisLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChartYAxisLayer.h; sourceTree = "<group>"; };
+		238BC9BE2278326800EB6984 /* EMChartGraphLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChartGraphLayer.m; sourceTree = "<group>"; };
+		238BC9BF2278326800EB6984 /* EMChartMouseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChartMouseLayer.h; sourceTree = "<group>"; };
+		238BC9C02278326800EB6984 /* EMChartXAxisLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChartXAxisLayer.h; sourceTree = "<group>"; };
+		238BC9C12278326800EB6984 /* EMChartYAxisLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChartYAxisLayer.m; sourceTree = "<group>"; };
+		238BC9CE2278329800EB6984 /* EMTrendChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTrendChartView.m; sourceTree = "<group>"; };
+		238BC9CF2278329800EB6984 /* EMTrendChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTrendChartView.h; sourceTree = "<group>"; };
+		238BC9D3227832CD00EB6984 /* EMGraphDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGraphDataItem.h; sourceTree = "<group>"; };
+		238BC9D4227832CE00EB6984 /* EMGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGraph.h; sourceTree = "<group>"; };
+		238BC9D5227832CE00EB6984 /* EMGraphLayerAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGraphLayerAccessory.m; sourceTree = "<group>"; };
+		238BC9D6227832CE00EB6984 /* EMGraphLayerAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGraphLayerAccessory.h; sourceTree = "<group>"; };
+		238BC9D7227832CE00EB6984 /* EMExtremum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMExtremum.m; sourceTree = "<group>"; };
+		238BC9D8227832CE00EB6984 /* EMGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGraph.m; sourceTree = "<group>"; };
+		238BC9D9227832CE00EB6984 /* EMExtremum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMExtremum.h; sourceTree = "<group>"; };
+		238BC9DA227832CE00EB6984 /* EMGraphDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGraphDataItem.m; sourceTree = "<group>"; };
+		238BC9E42278337F00EB6984 /* EMAxisHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAxisHelper.h; sourceTree = "<group>"; };
+		238BC9E52278337F00EB6984 /* EMAxisHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAxisHelper.m; sourceTree = "<group>"; };
+		238BC9E8227834A600EB6984 /* NSView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Geometry.h"; sourceTree = "<group>"; };
+		238BC9E9227834A600EB6984 /* NSView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Geometry.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238BC99122782DEF00EB6984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238BC98A22782DEF00EB6984 = {
+			isa = PBXGroup;
+			children = (
+				238BC99622782DEF00EB6984 /* EasyMagicChart */,
+				238BC99522782DEF00EB6984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238BC99522782DEF00EB6984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238BC99422782DEF00EB6984 /* EasyMagicChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238BC99622782DEF00EB6984 /* EasyMagicChart */ = {
+			isa = PBXGroup;
+			children = (
+				238BC99722782DEF00EB6984 /* EasyMagicChart.h */,
+				23FA8B65227E7D0300B25E58 /* Category */,
+				238BC9E3227832D300EB6984 /* Model */,
+				238BC9D22278329F00EB6984 /* View */,
+				238BC9CD2278328600EB6984 /* Algorithm */,
+				238BC9CC2278327400EB6984 /* Layer */,
+				238BC9AF227830FE00EB6984 /* Tools */,
+				238BC99822782DEF00EB6984 /* Info.plist */,
+			);
+			path = EasyMagicChart;
+			sourceTree = "<group>";
+		};
+		238BC9AF227830FE00EB6984 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9E42278337F00EB6984 /* EMAxisHelper.h */,
+				238BC9E52278337F00EB6984 /* EMAxisHelper.m */,
+				238BC9B12278320800EB6984 /* EMDataFactory.h */,
+				238BC9B02278320800EB6984 /* EMDataFactory.m */,
+				238BC9A422782EC800EB6984 /* EMTypicalColor.h */,
+				238BC9A322782EC800EB6984 /* EMTypicalColor.m */,
+				238BC99F22782E2D00EB6984 /* EMCommonlyUsedToolKit.h */,
+				238BC9A022782E2D00EB6984 /* EMCommonlyUsedToolKit.m */,
+				238BC9A82278301B00EB6984 /* EMConverterTool.h */,
+				238BC9A72278301B00EB6984 /* EMConverterTool.m */,
+				238BC9AB2278306800EB6984 /* EMControlTool.h */,
+				238BC9AC2278306800EB6984 /* EMControlTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		238BC9CC2278327400EB6984 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9B82278326800EB6984 /* EMChartBaseLayer.h */,
+				238BC9BA2278326800EB6984 /* EMChartBaseLayer.m */,
+				238BC9BB2278326800EB6984 /* EMChartGraphLayer.h */,
+				238BC9BE2278326800EB6984 /* EMChartGraphLayer.m */,
+				238BC9BF2278326800EB6984 /* EMChartMouseLayer.h */,
+				238BC9B92278326800EB6984 /* EMChartMouseLayer.m */,
+				238BC9C02278326800EB6984 /* EMChartXAxisLayer.h */,
+				238BC9BC2278326800EB6984 /* EMChartXAxisLayer.m */,
+				238BC9BD2278326800EB6984 /* EMChartYAxisLayer.h */,
+				238BC9C12278326800EB6984 /* EMChartYAxisLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		238BC9CD2278328600EB6984 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9B52278324D00EB6984 /* EMGraphicsAlgorithm.h */,
+				238BC9B42278324D00EB6984 /* EMGraphicsAlgorithm.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		238BC9D22278329F00EB6984 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9CF2278329800EB6984 /* EMTrendChartView.h */,
+				238BC9CE2278329800EB6984 /* EMTrendChartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		238BC9E3227832D300EB6984 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9D9227832CE00EB6984 /* EMExtremum.h */,
+				238BC9D7227832CE00EB6984 /* EMExtremum.m */,
+				238BC9D4227832CE00EB6984 /* EMGraph.h */,
+				238BC9D8227832CE00EB6984 /* EMGraph.m */,
+				238BC9D3227832CD00EB6984 /* EMGraphDataItem.h */,
+				238BC9DA227832CE00EB6984 /* EMGraphDataItem.m */,
+				238BC9D6227832CE00EB6984 /* EMGraphLayerAccessory.h */,
+				238BC9D5227832CE00EB6984 /* EMGraphLayerAccessory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23FA8B65227E7D0300B25E58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9E8227834A600EB6984 /* NSView+Geometry.h */,
+				238BC9E9227834A600EB6984 /* NSView+Geometry.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		238BC98F22782DEF00EB6984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238BC9A122782E2D00EB6984 /* EMCommonlyUsedToolKit.h in Headers */,
+				238BC9B32278320800EB6984 /* EMDataFactory.h in Headers */,
+				238BC9B72278324D00EB6984 /* EMGraphicsAlgorithm.h in Headers */,
+				238BC9A622782EC800EB6984 /* EMTypicalColor.h in Headers */,
+				238BC9C22278326800EB6984 /* EMChartBaseLayer.h in Headers */,
+				238BC9EA227834A600EB6984 /* NSView+Geometry.h in Headers */,
+				238BC9C52278326800EB6984 /* EMChartGraphLayer.h in Headers */,
+				238BC9DB227832CE00EB6984 /* EMGraphDataItem.h in Headers */,
+				238BC9C72278326800EB6984 /* EMChartYAxisLayer.h in Headers */,
+				238BC9CA2278326800EB6984 /* EMChartXAxisLayer.h in Headers */,
+				238BC9C92278326800EB6984 /* EMChartMouseLayer.h in Headers */,
+				238BC9DE227832CE00EB6984 /* EMGraphLayerAccessory.h in Headers */,
+				238BC9DC227832CE00EB6984 /* EMGraph.h in Headers */,
+				238BC9AD2278306800EB6984 /* EMControlTool.h in Headers */,
+				238BC9D12278329800EB6984 /* EMTrendChartView.h in Headers */,
+				238BC9E62278337F00EB6984 /* EMAxisHelper.h in Headers */,
+				238BC9E1227832CE00EB6984 /* EMExtremum.h in Headers */,
+				238BC9AA2278301B00EB6984 /* EMConverterTool.h in Headers */,
+				238BC99922782DF000EB6984 /* EasyMagicChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		238BC99322782DEF00EB6984 /* EasyMagicChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238BC99C22782DF000EB6984 /* Build configuration list for PBXNativeTarget "EasyMagicChart" */;
+			buildPhases = (
+				238BC98F22782DEF00EB6984 /* Headers */,
+				238BC99022782DEF00EB6984 /* Sources */,
+				238BC99122782DEF00EB6984 /* Frameworks */,
+				238BC99222782DEF00EB6984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMagicChart;
+			productName = EasyMagicChart;
+			productReference = 238BC99422782DEF00EB6984 /* EasyMagicChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238BC98B22782DEF00EB6984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Leonidas;
+				TargetAttributes = {
+					238BC99322782DEF00EB6984 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 238BC98E22782DEF00EB6984 /* Build configuration list for PBXProject "EasyMagicChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 238BC98A22782DEF00EB6984;
+			productRefGroup = 238BC99522782DEF00EB6984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238BC99322782DEF00EB6984 /* EasyMagicChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238BC99222782DEF00EB6984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238BC99022782DEF00EB6984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238BC9B62278324D00EB6984 /* EMGraphicsAlgorithm.m in Sources */,
+				238BC9C42278326800EB6984 /* EMChartBaseLayer.m in Sources */,
+				238BC9A522782EC800EB6984 /* EMTypicalColor.m in Sources */,
+				238BC9A92278301B00EB6984 /* EMConverterTool.m in Sources */,
+				238BC9CB2278326800EB6984 /* EMChartYAxisLayer.m in Sources */,
+				238BC9D02278329800EB6984 /* EMTrendChartView.m in Sources */,
+				238BC9C62278326800EB6984 /* EMChartXAxisLayer.m in Sources */,
+				238BC9C32278326800EB6984 /* EMChartMouseLayer.m in Sources */,
+				238BC9B22278320800EB6984 /* EMDataFactory.m in Sources */,
+				238BC9E2227832CE00EB6984 /* EMGraphDataItem.m in Sources */,
+				238BC9DD227832CE00EB6984 /* EMGraphLayerAccessory.m in Sources */,
+				238BC9EB227834A600EB6984 /* NSView+Geometry.m in Sources */,
+				238BC9E72278337F00EB6984 /* EMAxisHelper.m in Sources */,
+				238BC9E0227832CE00EB6984 /* EMGraph.m in Sources */,
+				238BC9A222782E2D00EB6984 /* EMCommonlyUsedToolKit.m in Sources */,
+				238BC9AE2278306800EB6984 /* EMControlTool.m in Sources */,
+				238BC9DF227832CE00EB6984 /* EMExtremum.m in Sources */,
+				238BC9C82278326800EB6984 /* EMChartGraphLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		238BC99A22782DF000EB6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		238BC99B22782DF000EB6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		238BC99D22782DF000EB6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H2H4C4T387;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = EasyMagicChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leonidas.EasyMagicChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		238BC99E22782DF000EB6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H2H4C4T387;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = EasyMagicChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leonidas.EasyMagicChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238BC98E22782DEF00EB6984 /* Build configuration list for PBXProject "EasyMagicChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238BC99A22782DF000EB6984 /* Debug */,
+				238BC99B22782DF000EB6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238BC99C22782DF000EB6984 /* Build configuration list for PBXNativeTarget "EasyMagicChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238BC99D22782DF000EB6984 /* Debug */,
+				238BC99E22782DF000EB6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238BC98B22782DEF00EB6984 /* Project object */;
+}

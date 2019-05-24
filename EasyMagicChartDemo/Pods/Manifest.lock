@@ -1,0 +1,84 @@
+PODS:
+  - KSCrash (1.15.20):
+    - KSCrash/Installations (= 1.15.20)
+  - KSCrash/Installations (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting
+  - KSCrash/Recording (1.15.20):
+    - KSCrash/Recording/Tools (= 1.15.20)
+  - KSCrash/Recording/Tools (1.15.20)
+  - KSCrash/Reporting (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 1.15.20)
+    - KSCrash/Reporting/MessageUI (= 1.15.20)
+    - KSCrash/Reporting/Sinks (= 1.15.20)
+    - KSCrash/Reporting/Tools (= 1.15.20)
+  - KSCrash/Reporting/Filters (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 1.15.20)
+    - KSCrash/Reporting/Filters/AppleFmt (= 1.15.20)
+    - KSCrash/Reporting/Filters/Base (= 1.15.20)
+    - KSCrash/Reporting/Filters/Basic (= 1.15.20)
+    - KSCrash/Reporting/Filters/GZip (= 1.15.20)
+    - KSCrash/Reporting/Filters/JSON (= 1.15.20)
+    - KSCrash/Reporting/Filters/Sets (= 1.15.20)
+    - KSCrash/Reporting/Filters/Stringify (= 1.15.20)
+    - KSCrash/Reporting/Filters/Tools (= 1.15.20)
+  - KSCrash/Reporting/Filters/Alert (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (1.15.20):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+    - KSCrash/Reporting/Filters/Stringify
+  - KSCrash/Reporting/Filters/Stringify (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Tools (1.15.20):
+    - KSCrash/Recording
+  - KSCrash/Reporting/MessageUI (1.15.20):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Sinks (1.15.20):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (1.15.20):
+    - KSCrash/Recording
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+
+DEPENDENCIES:
+  - KSCrash
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KSCrash
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  KSCrash: 4dc18329a90b516342809b9ca92fc4d199d712ea
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+
+PODFILE CHECKSUM: 1c0af454150927d44229fdc2e58800cd80e0aad6
+
+COCOAPODS: 1.5.0

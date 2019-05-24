@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231F1FD62297988600B1D013 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 231F1FD22297988600B1D013 /* icon.png */; };
+		238BC9FA2278397900EB6984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9F92278397900EB6984 /* AppDelegate.m */; };
+		238BC9FC2278397A00EB6984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238BC9FB2278397A00EB6984 /* Assets.xcassets */; };
+		238BC9FF2278397A00EB6984 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238BC9FD2278397A00EB6984 /* MainMenu.xib */; };
+		238BCA022278397A00EB6984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BCA012278397A00EB6984 /* main.m */; };
+		238BCA0B22783B0700EB6984 /* EasyMagicChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238BCA0A22783B0700EB6984 /* EasyMagicChart.framework */; };
+		7D841AD67B89169E08686104 /* libPods-EasyMagicChartDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9DC8FCE8F7CF6A294B6258 /* libPods-EasyMagicChartDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231F1FC0229794FD00B1D013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2DF1EBC92C5233360726A8CD7A99118;
+			remoteInfo = KSCrash;
+		};
+		231F1FC2229794FD00B1D013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B511AD5D8E4B01692410A8E63983FF9C;
+			remoteInfo = "Pods-EasyMagicChartDemo";
+		};
+		231F1FCF2297969100B1D013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A17FC92112563BDDE872594DB7B9C35;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C9DC8FCE8F7CF6A294B6258 /* libPods-EasyMagicChartDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyMagicChartDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231F1FBB229794FD00B1D013 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		231F1FD22297988600B1D013 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		238BC9F52278397900EB6984 /* EasyMagicChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMagicChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238BC9F82278397900EB6984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		238BC9F92278397900EB6984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		238BC9FB2278397A00EB6984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238BC9FE2278397A00EB6984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		238BCA002278397A00EB6984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238BCA012278397A00EB6984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		238BCA032278397A00EB6984 /* EasyMagicChartDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyMagicChartDemo.entitlements; sourceTree = "<group>"; };
+		238BCA0A22783B0700EB6984 /* EasyMagicChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EasyMagicChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238BC9F22278397900EB6984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238BCA0B22783B0700EB6984 /* EasyMagicChart.framework in Frameworks */,
+				7D841AD67B89169E08686104 /* libPods-EasyMagicChartDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231F1FBC229794FD00B1D013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231F1FC1229794FD00B1D013 /* libKSCrash.a */,
+				231F1FC3229794FD00B1D013 /* libPods-EasyMagicChartDemo.a */,
+				231F1FD02297969100B1D013 /* libSDWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238BC9EC2278397900EB6984 = {
+			isa = PBXGroup;
+			children = (
+				238BC9F72278397900EB6984 /* EasyMagicChartDemo */,
+				238BC9F62278397900EB6984 /* Products */,
+				238BCA0922783B0700EB6984 /* Frameworks */,
+				F0DB2BCE3C1E5EE633D6CD50 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		238BC9F62278397900EB6984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9F52278397900EB6984 /* EasyMagicChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238BC9F72278397900EB6984 /* EasyMagicChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				238BC9F82278397900EB6984 /* AppDelegate.h */,
+				238BC9F92278397900EB6984 /* AppDelegate.m */,
+				238BC9FB2278397A00EB6984 /* Assets.xcassets */,
+				231F1FD22297988600B1D013 /* icon.png */,
+				238BC9FD2278397A00EB6984 /* MainMenu.xib */,
+				238BCA002278397A00EB6984 /* Info.plist */,
+				238BCA012278397A00EB6984 /* main.m */,
+				238BCA032278397A00EB6984 /* EasyMagicChartDemo.entitlements */,
+			);
+			path = EasyMagicChartDemo;
+			sourceTree = "<group>";
+		};
+		238BCA0922783B0700EB6984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238BCA0A22783B0700EB6984 /* EasyMagicChart.framework */,
+				1C9DC8FCE8F7CF6A294B6258 /* libPods-EasyMagicChartDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0DB2BCE3C1E5EE633D6CD50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				231F1FBB229794FD00B1D013 /* Pods.xcodeproj */,
+				F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */,
+				66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238BC9F42278397900EB6984 /* EasyMagicChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238BCA062278397A00EB6984 /* Build configuration list for PBXNativeTarget "EasyMagicChartDemo" */;
+			buildPhases = (
+				30C5FC78E50DC40B00B2099E /* [CP] Check Pods Manifest.lock */,
+				238BC9F12278397900EB6984 /* Sources */,
+				238BC9F22278397900EB6984 /* Frameworks */,
+				238BC9F32278397900EB6984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMagicChartDemo;
+			productName = EasyMagicChartDemo;
+			productReference = 238BC9F52278397900EB6984 /* EasyMagicChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238BC9ED2278397900EB6984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Leonidas;
+				TargetAttributes = {
+					238BC9F42278397900EB6984 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 238BC9F02278397900EB6984 /* Build configuration list for PBXProject "EasyMagicChartDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238BC9EC2278397900EB6984;
+			productRefGroup = 238BC9F62278397900EB6984 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 231F1FBC229794FD00B1D013 /* Products */;
+					ProjectRef = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				238BC9F42278397900EB6984 /* EasyMagicChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		231F1FC1229794FD00B1D013 /* libKSCrash.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKSCrash.a;
+			remoteRef = 231F1FC0229794FD00B1D013 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		231F1FC3229794FD00B1D013 /* libPods-EasyMagicChartDemo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-EasyMagicChartDemo.a";
+			remoteRef = 231F1FC2229794FD00B1D013 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		231F1FD02297969100B1D013 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 231F1FCF2297969100B1D013 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238BC9F32278397900EB6984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238BC9FC2278397A00EB6984 /* Assets.xcassets in Resources */,
+				238BC9FF2278397A00EB6984 /* MainMenu.xib in Resources */,
+				231F1FD62297988600B1D013 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30C5FC78E50DC40B00B2099E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyMagicChartDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238BC9F12278397900EB6984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238BCA022278397A00EB6984 /* main.m in Sources */,
+				238BC9FA2278397900EB6984 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		238BC9FD2278397A00EB6984 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238BC9FE2278397A00EB6984 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238BCA042278397A00EB6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		238BCA052278397A00EB6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		238BCA072278397A00EB6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyMagicChartDemo/EasyMagicChartDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H2H4C4T387;
+				INFOPLIST_FILE = EasyMagicChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leonidas.EasyMagicChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		238BCA082278397A00EB6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyMagicChartDemo/EasyMagicChartDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H2H4C4T387;
+				INFOPLIST_FILE = EasyMagicChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leonidas.EasyMagicChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238BC9F02278397900EB6984 /* Build configuration list for PBXProject "EasyMagicChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238BCA042278397A00EB6984 /* Debug */,
+				238BCA052278397A00EB6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238BCA062278397A00EB6984 /* Build configuration list for PBXNativeTarget "EasyMagicChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238BCA072278397A00EB6984 /* Debug */,
+				238BCA082278397A00EB6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238BC9ED2278397900EB6984 /* Project object */;
+}
