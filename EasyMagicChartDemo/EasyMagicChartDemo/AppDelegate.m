@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import <EasyMagicChart/EasyMagicChart.h>
 
+#import <KSCrash/KSCrash.h>
+
 @interface AppDelegate () <NSTableViewDelegate, NSTableViewDataSource, EMTrendChartViewDelegate>
 
 @property (weak) IBOutlet NSWindow *window;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238B811F22A0D79600BB6AAB /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 238B811E22A0D79600BB6AAB /* info.plist */; };
 		238BC99922782DF000EB6984 /* EasyMagicChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC99722782DEF00EB6984 /* EasyMagicChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238BC9A122782E2D00EB6984 /* EMCommonlyUsedToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BC99F22782E2D00EB6984 /* EMCommonlyUsedToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238BC9A222782E2D00EB6984 /* EMCommonlyUsedToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9A022782E2D00EB6984 /* EMCommonlyUsedToolKit.m */; };
@@ -47,9 +48,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238B811E22A0D79600BB6AAB /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		238BC99422782DEF00EB6984 /* EasyMagicChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMagicChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BC99722782DEF00EB6984 /* EasyMagicChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyMagicChart.h; sourceTree = "<group>"; };
-		238BC99822782DEF00EB6984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238BC99F22782E2D00EB6984 /* EMCommonlyUsedToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCommonlyUsedToolKit.h; sourceTree = "<group>"; };
 		238BC9A022782E2D00EB6984 /* EMCommonlyUsedToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMCommonlyUsedToolKit.m; sourceTree = "<group>"; };
 		238BC9A322782EC800EB6984 /* EMTypicalColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTypicalColor.m; sourceTree = "<group>"; };
@@ -125,7 +126,7 @@
 				238BC9CD2278328600EB6984 /* Algorithm */,
 				238BC9CC2278327400EB6984 /* Layer */,
 				238BC9AF227830FE00EB6984 /* Tools */,
-				238BC99822782DEF00EB6984 /* Info.plist */,
+				238B811E22A0D79600BB6AAB /* info.plist */,
 			);
 			path = EasyMagicChart;
 			sourceTree = "<group>";
@@ -294,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B811F22A0D79600BB6AAB /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

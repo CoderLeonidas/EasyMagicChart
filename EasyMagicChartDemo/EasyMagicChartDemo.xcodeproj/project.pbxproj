@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		231F1FD62297988600B1D013 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 231F1FD22297988600B1D013 /* icon.png */; };
+		238B812222A0EF9C00BB6AAB /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 238B812122A0EF9C00BB6AAB /* info.plist */; };
 		238BC9FA2278397900EB6984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238BC9F92278397900EB6984 /* AppDelegate.m */; };
 		238BC9FC2278397A00EB6984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238BC9FB2278397A00EB6984 /* Assets.xcassets */; };
 		238BC9FF2278397A00EB6984 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238BC9FD2278397A00EB6984 /* MainMenu.xib */; };
@@ -17,44 +18,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		231F1FC0229794FD00B1D013 /* PBXContainerItemProxy */ = {
+		238B811C22A0D6E900BB6AAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+			containerPortal = 238B811822A0D6E900BB6AAB /* EasyMagicChart.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C2DF1EBC92C5233360726A8CD7A99118;
-			remoteInfo = KSCrash;
-		};
-		231F1FC2229794FD00B1D013 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B511AD5D8E4B01692410A8E63983FF9C;
-			remoteInfo = "Pods-EasyMagicChartDemo";
-		};
-		231F1FCF2297969100B1D013 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A17FC92112563BDDE872594DB7B9C35;
-			remoteInfo = SDWebImage;
+			remoteGlobalIDString = 238BC99422782DEF00EB6984;
+			remoteInfo = EasyMagicChart;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C9DC8FCE8F7CF6A294B6258 /* libPods-EasyMagicChartDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyMagicChartDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		231F1FBB229794FD00B1D013 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		231F1FD22297988600B1D013 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		238B811822A0D6E900BB6AAB /* EasyMagicChart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyMagicChart.xcodeproj; path = ../../EasyMagicChart/EasyMagicChart.xcodeproj; sourceTree = "<group>"; };
+		238B812122A0EF9C00BB6AAB /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		238BC9F52278397900EB6984 /* EasyMagicChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMagicChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BC9F82278397900EB6984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		238BC9F92278397900EB6984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		238BC9FB2278397A00EB6984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238BC9FE2278397A00EB6984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		238BCA002278397A00EB6984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238BCA012278397A00EB6984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		238BCA032278397A00EB6984 /* EasyMagicChartDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyMagicChartDemo.entitlements; sourceTree = "<group>"; };
 		238BCA0A22783B0700EB6984 /* EasyMagicChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EasyMagicChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5688409AA073573835E6AF /* Pods-EasyMagicChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.debug.xcconfig"; path = "Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D2592E6DA0EC51A3199312 /* Pods-EasyMagicChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMagicChartDemo.release.xcconfig"; path = "Target Support Files/Pods-EasyMagicChartDemo/Pods-EasyMagicChartDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		231F1FBC229794FD00B1D013 /* Products */ = {
+		01D8D3C411CB0BEED47B9A57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				231F1FC1229794FD00B1D013 /* libKSCrash.a */,
-				231F1FC3229794FD00B1D013 /* libPods-EasyMagicChartDemo.a */,
-				231F1FD02297969100B1D013 /* libSDWebImage.a */,
+				2B5688409AA073573835E6AF /* Pods-EasyMagicChartDemo.debug.xcconfig */,
+				E5D2592E6DA0EC51A3199312 /* Pods-EasyMagicChartDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		238B811922A0D6E900BB6AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238B811D22A0D6E900BB6AAB /* EasyMagicChart.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +80,7 @@
 				238BC9F72278397900EB6984 /* EasyMagicChartDemo */,
 				238BC9F62278397900EB6984 /* Products */,
 				238BCA0922783B0700EB6984 /* Frameworks */,
-				F0DB2BCE3C1E5EE633D6CD50 /* Pods */,
+				01D8D3C411CB0BEED47B9A57 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +97,11 @@
 			children = (
 				238BC9F82278397900EB6984 /* AppDelegate.h */,
 				238BC9F92278397900EB6984 /* AppDelegate.m */,
+				238B812122A0EF9C00BB6AAB /* info.plist */,
+				238B811822A0D6E900BB6AAB /* EasyMagicChart.xcodeproj */,
 				238BC9FB2278397A00EB6984 /* Assets.xcassets */,
 				231F1FD22297988600B1D013 /* icon.png */,
 				238BC9FD2278397A00EB6984 /* MainMenu.xib */,
-				238BCA002278397A00EB6984 /* Info.plist */,
 				238BCA012278397A00EB6984 /* main.m */,
 				238BCA032278397A00EB6984 /* EasyMagicChartDemo.entitlements */,
 			);
@@ -120,16 +115,6 @@
 				1C9DC8FCE8F7CF6A294B6258 /* libPods-EasyMagicChartDemo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F0DB2BCE3C1E5EE633D6CD50 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				231F1FBB229794FD00B1D013 /* Pods.xcodeproj */,
-				F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */,
-				66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +165,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 231F1FBC229794FD00B1D013 /* Products */;
-					ProjectRef = 231F1FBB229794FD00B1D013 /* Pods.xcodeproj */;
+					ProductGroup = 238B811922A0D6E900BB6AAB /* Products */;
+					ProjectRef = 238B811822A0D6E900BB6AAB /* EasyMagicChart.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -192,25 +177,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		231F1FC1229794FD00B1D013 /* libKSCrash.a */ = {
+		238B811D22A0D6E900BB6AAB /* EasyMagicChart.framework */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKSCrash.a;
-			remoteRef = 231F1FC0229794FD00B1D013 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		231F1FC3229794FD00B1D013 /* libPods-EasyMagicChartDemo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-EasyMagicChartDemo.a";
-			remoteRef = 231F1FC2229794FD00B1D013 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		231F1FD02297969100B1D013 /* libSDWebImage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDWebImage.a;
-			remoteRef = 231F1FCF2297969100B1D013 /* PBXContainerItemProxy */;
+			fileType = wrapper.framework;
+			path = EasyMagicChart.framework;
+			remoteRef = 238B811C22A0D6E900BB6AAB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -220,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B812222A0EF9C00BB6AAB /* info.plist in Resources */,
 				238BC9FC2278397A00EB6984 /* Assets.xcassets in Resources */,
 				238BC9FF2278397A00EB6984 /* MainMenu.xib in Resources */,
 				231F1FD62297988600B1D013 /* icon.png in Resources */,
@@ -386,13 +358,19 @@
 		};
 		238BCA072278397A00EB6984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F495EB3431CA28BE664A15E4 /* Pods-EasyMagicChartDemo.debug.xcconfig */;
+			baseConfigurationReference = 2B5688409AA073573835E6AF /* Pods-EasyMagicChartDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EasyMagicChartDemo/EasyMagicChartDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H2H4C4T387;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/KSCrash\"",
+				);
 				INFOPLIST_FILE = EasyMagicChartDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,13 +383,19 @@
 		};
 		238BCA082278397A00EB6984 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66602CA23F0F3BEC583D01FB /* Pods-EasyMagicChartDemo.release.xcconfig */;
+			baseConfigurationReference = E5D2592E6DA0EC51A3199312 /* Pods-EasyMagicChartDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EasyMagicChartDemo/EasyMagicChartDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H2H4C4T387;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/KSCrash\"",
+				);
 				INFOPLIST_FILE = EasyMagicChartDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
